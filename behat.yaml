@@ -1,0 +1,10 @@
+default:
+  suites:
+    acceptance:
+      filters:
+        tags: '~@skip-acceptance'
+
+    system:
+      filters:
+        tags: '@system'
+      contexts: []
